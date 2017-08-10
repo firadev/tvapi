@@ -10,8 +10,7 @@ public class TvChannel {
     public CardGradient     gradient;    // gradient for card
     public String           logo;        // logo url
     public String           description; // channel description
-    public int              parent_id;   // parent id
-    public String           current;     // program
-    public int              vendor;      // channel vendor id
+    public int              parentId;    // parent id
+    public String           program;     // current program
     public String           hls;         // channel hls
 }
